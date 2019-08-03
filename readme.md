@@ -2,11 +2,11 @@
 
 斜着来一张
 
-![WechatIMG6](/Users/scarleast/Desktop/WechatIMG6.jpeg)]
+![WechatIMG6.jpeg](https://i.loli.net/2019/08/03/x9aLvNqfDFSu1I2.jpg)]
 
 正面再来一张
 
-![WechatIMG8](/Users/scarleast/Desktop/WechatIMG8.jpeg)
+![WechatIMG8.jpeg](https://i.loli.net/2019/08/03/L16KUxHOisQl4Wd.jpg)
 
 # 起源
 
@@ -14,7 +14,8 @@
 
 想想，我也有家人，有的刚提新车，有的刚装修新房，有的公司搬刚装修的新址，大家知道空气中我们吸入的是一些什么东西吗？于是我在淘宝搜了一下TVOC传感器，结果如下：
 
-![屏幕快照 2019-08-03 上午11.13.35](/Users/scarleast/Desktop/屏幕快照 2019-08-03 上午11.13.35.png)
+![屏幕快照 2019-08-03 上午11.13.35.png](https://i.loli.net/2019/08/03/MoOxLFWAGE3DbvX.png)
+
 
 发现稍微好点的，大都300元左右左右，并且这种检测模式吧，我也不可能上班天天哪个这玩意儿按呀？我便有了一个念头。
 
@@ -33,7 +34,9 @@
 
 实际上，TVOC，就指的是空气中所有挥发性有机物的总量，那什么是挥发性有机物呢？常见的笨、甲醛等，都属于挥发性有机物。我不可能想起来苯，就去买个苯的检测仪，想起来甲醛，就去买个甲醛的检测仪，当然，不差钱另说。所以用TVOC检测仪，一次性检测一下空气中所有挥发性有机物的含量，就能大致推断出当前空气的质量。如果TVOC值过高，则说明空气确实有一定的问题，就需要找专业的检测机构做相关的检测了。那么TVOC的标准是多少呢？见下表：
 
-![屏幕快照 2019-04-28 上午12.17.00](/Users/scarleast/Desktop/屏幕快照 2019-04-28 上午12.17.00.png)
+
+![屏幕快照 2019-04-28 上午12.17.00.png](https://i.loli.net/2019/08/03/4rwPtQO7X9ZJhiz.png)
+
 
 # 芯片选型
 
@@ -84,6 +87,6 @@
 
 打样之类的，都是5片起做，所以除了自己留了一块用，还剩下4块传感器，懒得动手的小伙伴，可以私信一波我呀，我们闲鱼一波，99块，只想回血一波请队友奶茶的钱~贫困线奔波的孩子，开不起淘宝店。
 
-![WechatIMG11](/Users/scarleast/Desktop/WechatIMG11.jpeg)
+![WechatIMG11.jpeg](https://i.loli.net/2019/08/03/PXHFqbQZ8drnBJO.jpg)
 
 和我的树莓派放在一起，大家可以直观的看出来大小。
