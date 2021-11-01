@@ -2,7 +2,7 @@
 
 斜着来一张
 
-![WechatIMG6.jpeg](https://i.loli.net/2019/08/03/x9aLvNqfDFSu1I2.jpg)]
+![WechatIMG6.jpeg](https://i.loli.net/2019/08/03/x9aLvNqfDFSu1I2.jpg)
 
 正面再来一张
 

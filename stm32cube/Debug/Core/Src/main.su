@@ -1,0 +1,4 @@
+main.c:71:5:main	8	static
+main.c:179:6:SystemClock_Config	96	static
+main.c:240:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:257:6:Error_Handler	8	static,ignoring_inline_asm

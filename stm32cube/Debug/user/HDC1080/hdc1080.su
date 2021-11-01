@@ -1,0 +1,4 @@
+hdc1080.c:7:6:hdc1080_init	32	static
+hdc1080.c:30:9:hdc1080_start_measurement	40	static
+hdc1080.c:56:8:gettemperature	8	static
+hdc1080.c:60:8:gethumidity	8	static

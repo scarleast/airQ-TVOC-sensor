@@ -1,0 +1,64 @@
+!SESSION 2021-07-15 19:06:36.497 -----------------------------------------------
+eclipse.buildId=Version 1.6.1
+java.version=11.0.9.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN_#Hans
+Framework arguments:  -keyring /Users/scarleast/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/scarleast/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-07-15 19:07:31.524
+!MESSAGE Log4j initialized with config file /Users/scarleast/codes/stm32/air_qx/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-07-15 19:07:39.889
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-07-15 19:07:40.222
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-07-15 19:08:23.930
+!MESSAGE Indexed 'TVOC' (22 sources, 101 headers) in 3.97 sec: 7,263 declarations; 28,442 references; 2 unresolved inclusions; 33 syntax errors; 188 unresolved names (0.52%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-07-15 19:08:26.780
+!MESSAGE Indexed 'tuya' (31 sources, 114 headers) in 2.84 sec: 9,033 declarations; 50,371 references; 2 unresolved inclusions; 33 syntax errors; 188 unresolved names (0.32%)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-07-15 19:08:46.664
+!MESSAGE Connection to https://download.eclipse.org/technology/epp/packages/2020-06/p2.index failed on Socket closed. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Socket closed
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Socket closed
+		at java.base/java.net.SocketOutputStream.socketWrite(Unknown Source)
+		at java.base/java.net.SocketOutputStream.write(Unknown Source)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(Unknown Source)
+		... 24 more
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
+	... 21 more
